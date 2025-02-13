@@ -6,12 +6,12 @@ variable "location" {
 
 variable "resource_group_name" {
   description = "Resource Group Name for Ace Data Warehouse"
-  default     = "rg-adw-np"
+  default     = "rg-deploy-resources"
   type        = string
 }
 
-variable "st_adls_name" {
+variable "st_blob_name" {
   description = "Storage account Name"
-  default     = "stadwnp"
+  default     = "tempstorage2132025"
   type        = string
 }
