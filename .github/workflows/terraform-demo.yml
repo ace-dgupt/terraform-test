@@ -1,4 +1,0 @@
-name: 'Demo Terraform Plan/Apply'
-
-on:
-  workflow_dispatch: 
